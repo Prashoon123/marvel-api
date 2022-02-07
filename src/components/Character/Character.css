@@ -1,0 +1,26 @@
+.character {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+    position: relative;
+    color: black;
+}
+
+.character > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.character > div {
+    background-color: white;
+    z-index: 50;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    bottom: 0;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

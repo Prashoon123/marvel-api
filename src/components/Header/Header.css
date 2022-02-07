@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  border: 5px solid whitesmoke;
+  background-color: rgb(231, 22, 22);
+}
+
+.header > img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.header__options {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__options > p {
+  margin-right: 20px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  /* border-bottom: 2px solid white; */
+}
+
+.header__options > p:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
