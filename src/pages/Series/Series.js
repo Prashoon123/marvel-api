@@ -10,7 +10,7 @@ function Series() {
 
   useEffect(async () => {
     const result = await axios(
-      `http://gateway.marvel.com/v1/public/series?ts=1&apikey=${public_key}&hash=${hash}&limit=100`
+      `https://gateway.marvel.com/v1/public/series?ts=1&apikey=${public_key}&hash=${hash}&limit=100`
     );
 
     console.log(result.data.data.results);
